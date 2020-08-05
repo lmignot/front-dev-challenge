@@ -1,15 +1,14 @@
 # Front-End Developer Interview Challenge
 
-At Jolimoi we believe design is a collaborative process between designer and developer.
-This goal of this task is to assess your technical skills as a developer, but also your ability to give and accept feedback, and work in a team. Accordingly, you will have access to the designer during the task.
+This goal of this task is to assess your technical skills as a developer, your capacity to work with specifications and your ability to use best practices.
 
-Communicate your thought process while developing and don't be afraid to ask questions. Work with the designer to make the best possible solution to achieve the goal of the application.
+Don't hesitate to ask questions if necessary. You can also make assumptions when necessary as long as you detail them.
 
 Use any online resources you see fit.
 
-## Evluation
+## Evaluation
 
-You will be evaluated both on the final result and the choices you made on how to achieve it.
+You will be evaluated both on the final result, the choices you made on how to achieve it and the respect of the best practices.
 
 ## Situation of Concern
 
