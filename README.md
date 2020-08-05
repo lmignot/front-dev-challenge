@@ -10,13 +10,15 @@ Use any online resources you see fit.
 
 You will be evaluated both on the final result, the choices you made on how to achieve it and the respect of the best practices.
 
-## Situation of Concern
+## Context
 
 A beauty shop wants to provide customers with an easy way of finding specific products.
 
 ## Proposed Solution
 
-A Vue.js application that allows customers to search for a product using a search form.
+A web application that allows customers to search for a product using a search form.
+
+The given starting code is in Vue.js but you can use React if you are more comfortable with it.
 
 ## Your task
 
