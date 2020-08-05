@@ -16,7 +16,7 @@ A beauty shop wants to provide customers with an easy way of finding specific pr
 
 ## Proposed Solution
 
-An application that allows customers to search for a product using a search form.
+A Vue.js application that allows customers to search for a product using a search form.
 
 ## Your task
 
