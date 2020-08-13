@@ -33,6 +33,8 @@ Colours are #55D7FF and #DB0992.
 
 The API that will be used is the community based test API [Skin Care API](https://github.com/LauraRobertson/skincareAPI).
 
+The pagination feature of this API is not working. If you encounter any other problem with it, don't hesitate to contact us.
+
 #### Desktop
 
 ![Desktop](resources/Desktop.jpg)
