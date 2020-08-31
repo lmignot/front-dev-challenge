@@ -35,6 +35,9 @@ The API that will be used is the community based test API [Skin Care API](https:
 
 The pagination feature of this API is not working. If you encounter any other problem with it, don't hesitate to contact us.
 
+Because of CORS issues, please use the following URL to do a search on the API: 
+```https://cors-anywhere.herokuapp.com/https://skincare-api.herokuapp.com/product?q=[YOUR SEARCH STRING]```
+
 #### Desktop
 
 ![Desktop](resources/Desktop.jpg)
