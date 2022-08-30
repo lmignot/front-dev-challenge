@@ -1,16 +1,16 @@
-const { REACT_APP_SKINCARE_API_URL, REACT_APP_PRODUCTS_PATH } = process.env;
+const { REACT_APP_SKINCARE_API_URL, REACT_APP_PRODUCT_PATH } = process.env;
 
 interface Config {
   api: {
     baseUrl: string;
-    products: string;
+    product: string;
   }
 }
 
 const config: Config = {
   api: {
     baseUrl: REACT_APP_SKINCARE_API_URL!,
-    products: REACT_APP_PRODUCTS_PATH!
+    product: REACT_APP_PRODUCT_PATH!
   },
 };
 
