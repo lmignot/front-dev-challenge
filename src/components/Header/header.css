@@ -1,0 +1,39 @@
+@import url('../../theme/theme.css');
+
+.header {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title {
+  flex-grow: 1;
+  flex-basis: 33vh;
+  justify-content: center;
+  align-self: center;
+}
+
+.page-title h1 {
+  text-align: center;
+  margin: 0;
+  padding: 14vh 0;
+  font-size: 1.6rem;
+}
+
+.header-content {
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 750px) {
+  .header {
+    flex-direction: row;
+  }
+  .page-title {
+    flex-basis: 50vw;
+  }
+  .page-title h1 {
+    min-height: auto;
+    padding: 0;
+    font-size: 2rem;
+  }
+}

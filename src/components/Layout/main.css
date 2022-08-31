@@ -1,0 +1,14 @@
+@import url('../../theme/theme.css');
+
+.content {
+  background-color: var(--primary-color);
+  color: var(--text-color-contrast);
+  display: flex;
+  flex-grow: 1;
+  min-height: 33vh;
+}
+@media screen and (min-width: 750px) {
+  .content {
+    min-height: 50vh;
+  }
+}

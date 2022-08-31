@@ -1,0 +1,7 @@
+:root {
+  --secondary-color: #55D7FF;
+  --primary-color: #DB0992;
+  --cta-color: var(--secondary-color);
+  --text-color-primary: #000;
+  --text-color-contrast: #fff;
+}

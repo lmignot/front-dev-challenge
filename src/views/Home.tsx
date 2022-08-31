@@ -1,3 +1,8 @@
+import Header from '../components/Header/Header';
+import imgSrc from '../assets/beauty-products.jpg';
+import Main from '../components/Layout/Main';
+import Page from '../components/Layout/Page';
+import PosterImage from '../components/Poster/PosterImage';
 // import { useSearchContext } from '../context/SearchContext';
 
 
@@ -5,9 +10,14 @@ function Home() {
   // const {isLoading, isError, isSuccess, data, error } = useSearchContext();
 
   return (
-    <>
-      <h1>Home</h1>
-    </>
+    <Page>
+      <Header pageTitle="This is a page for beauty product search">
+        <PosterImage src={imgSrc} altText="Hand selecting one of a collection of beauty products" />
+      </Header>
+      <Main>
+        <p>test</p>
+      </Main>
+    </Page>
   )
 }
 
