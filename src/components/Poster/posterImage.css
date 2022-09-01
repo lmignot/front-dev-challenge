@@ -1,5 +1,6 @@
 .poster-image {
   width: 100vw;
+  /* height: 33vh; */
 }
 
 @media screen and (min-width: 750px) {
