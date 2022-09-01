@@ -3,6 +3,7 @@ import imgSrc from '../assets/beauty-products.jpg';
 import Main from '../components/Layout/Main';
 import Page from '../components/Layout/Page';
 import PosterImage from '../components/Poster/PosterImage';
+import SearchForm from '../components/Forms/SearchForm';
 // import { useSearchContext } from '../context/SearchContext';
 
 
@@ -15,7 +16,7 @@ function Home() {
         <PosterImage src={imgSrc} altText="Hand selecting one of a collection of beauty products" />
       </Header>
       <Main>
-        <p>test</p>
+        <SearchForm />
       </Main>
     </Page>
   )
