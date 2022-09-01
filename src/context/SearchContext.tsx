@@ -53,6 +53,13 @@ SearchContextProviderProps
 
   const doQuery = useCallback(async (q: string) => {
     try {
+      // Reset state before querying
+      setData([]);
+      setIsSuccess(false);
+      setIsError(false);
+      setError(null);
+
+      // indicate that we are working
       setIsLoading(true);
 
       // Join space-separated terms with '+' to perform a LIKE search against the API as per
@@ -61,7 +68,6 @@ SearchContextProviderProps
 
       const { data } = await axios.get(`${apiQueryUrl}${query}`);
 
-      console.log(data);
       setIsLoading(false);
       setData(data);
       setIsSuccess(true);
