@@ -4,11 +4,12 @@ import Main from '../components/Layout/Main';
 import Page from '../components/Layout/Page';
 import PosterImage from '../components/Poster/PosterImage';
 import SearchForm from '../components/Forms/SearchForm';
-// import { useSearchContext } from '../context/SearchContext';
+import SearchResults from '../components/SearchResults/SearchResults';
+import { useSearchContext } from '../context/SearchContext';
 
 
 function Home() {
-  // const {isLoading, isError, isSuccess, data, error } = useSearchContext();
+  const {isSuccess } = useSearchContext();
 
   return (
     <Page>
@@ -17,6 +18,13 @@ function Home() {
       </Header>
       <Main>
         <SearchForm />
+        {isSuccess && <SearchResults />}
+
+        {/* Ideally we'd show some kind of loading animation or indicator to the user that the app is working */}
+        {/* {isLoading && <p className="loading">Searching&hellip;</p>} */}
+
+        {/* Provide error feedback if necessary. At the very least if there is loss of internet connectiviy or the API is down */}
+        {/* {isError && <p className="error">The following error occured while searching: {error}</p>} */}
       </Main>
     </Page>
   )

@@ -1,0 +1,11 @@
+.list--search-results {
+  flex-basis: auto;
+  min-width: 80vw;
+  margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .list--search-results {
+    margin: 24px auto 24px 19vw;
+  }
+}
